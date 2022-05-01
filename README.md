@@ -3,6 +3,7 @@
 ## 概要
 
 - hofix
+- hotfix2
 
 ## 付録
 
