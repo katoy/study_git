@@ -5,6 +5,7 @@
 - hofix
 - hotfix2
 
+- git merge --ammend
 ## 付録
 
 ## 引用
