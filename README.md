@@ -43,7 +43,10 @@ git config --global pull.rebase false
 - <https://git-scm.com/book/ja/v2>
    Pro Git book 日本語版 オンライン
 
-### docker + rails + vscode 
+### docker + rails + vscode
+
+- <https://madogiwa0124.hatenablog.com/entry/2022/01/30/173342>
+  Ruby on Rails: 開発環境をVS CodeのRemote Containersで立ち上げるMEMO
 
 - https://qiita.com/haruhikonyan/items/b5b04c168d3f9de0e210
   VSCode と devcontainer で作る Rails 開発環境
