@@ -2,7 +2,7 @@
 
 ## 概要
 
-- hofix
+- hotfix
 - hotfix2
 - git merge --ammend
 
@@ -88,7 +88,21 @@ $ git clone https://github.com/haruhikonyan/rails-devcontainer -b rails6.1.0-and
 $ cd rails6.1.0-and-mysql
 $ code .
 
-vscode に termilal で ch /app してから
+vscode に terminal で ch /app してから
 rails s -b 0.0.0.0
 そのあと chrome で http:..localhost:3000 にアクセスする。
 ```
+
+### vscode
+
+- <https://qiita.com/otsuky/items/f46f5ee9eb11b3a9a4ba>
+  VSCodeの拡張機能・設定を共有してチームみんなでエンジョイナイスDX
+
+- <https://www.mitsue.co.jp/knowledge/blog/frontend/202108/30_1016.html>
+  Visual Studio Codeの設定ファイルを共有してチーム開発をより快適にする
+
+### rspec
+
+- <https://www.miracleave.co.jp/contents/1487/rspec-shoulda-matchers/>
+  RSpecをShoulda Matchersを使ってめちゃ簡単に書く
+  
