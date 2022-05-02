@@ -32,7 +32,7 @@ git config --global pull.rebase false
 - <https://zenn.dev/iamsmith/articles/16e30984bfa0f3>
   コンテナでcode-serverを動かす
 
-- https://zenn.dev/t_sakurai/articles/174edae8b630c5
+- <https://zenn.dev/t_sakurai/articles/174edae8b630c5>
   iPadでの開発環境を整える
 
 - <https://news.mynavi.jp/techplus/article/20200520-1038925/>
@@ -45,10 +45,42 @@ git config --global pull.rebase false
 
 ### docker + rails + vscode
 
+- <https://weseek.co.jp/tech/2331/>
+  VSCode × Docker で快適な開発環境をあなたにも
+
+```text
+tips
+ファイルに直接、拡張機能の ID を入力できますが、以下の画像にあるように追加したい拡張機能を検索し、「 Add to devcontainer.json 」を選択することで自動で devcontainer.json の extensions に記述してくれます。
+```
+
+- <https://qiita.com/I_s/items/6faa45327e89ed1d6531>
+  [VSCode]Remote Containersで開発環境を効率的に作成する
+
+```text
+VSCodeでcommand＋Shift＋Pを入力後、Remote-Containers: Add Development Container Configuration Filesと入力
+
+その後は適当に最新版を選択後、OKを押下するとdevcontainer.jsonが作成されます
+先程までなかった.devcontainerが作成されているはずなので、VSCodeでcommand＋Shift＋Pを入力後、Remote-Containers: Open Folder in Containerと入力
+.devcontainerが存在するディレクトリでOKを押下
+VSCodeが新規画面を開き、コンテナをビルドするのでしばらく待つ
+
+extensions
+
+VSCodeの拡張機能のIDを記載すれば、RemoteContainer起動時にコンテナ内に自動的にインストールされる
+拡張機能のIDは拡張機能インストール画面で設定からコピー可能
+
+自分のVSCodeで使用している拡張機能IDを一括で出力する場合のコマンド
+code --list-extensions | xargs -L 1 echo code --install-extension
+
+```
+
+- <https://uncaughtexception.hatenablog.com/entry/2021/09/02/193132>
+  Docker Desktop なしで VSCode の DevContainer を使う
+
 - <https://madogiwa0124.hatenablog.com/entry/2022/01/30/173342>
   Ruby on Rails: 開発環境をVS CodeのRemote Containersで立ち上げるMEMO
 
-- https://qiita.com/haruhikonyan/items/b5b04c168d3f9de0e210
+- <https://qiita.com/haruhikonyan/items/b5b04c168d3f9de0e210>
   VSCode と devcontainer で作る Rails 開発環境
 
 ```shell
