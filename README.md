@@ -42,3 +42,18 @@ git config --global pull.rebase false
 
 - <https://git-scm.com/book/ja/v2>
    Pro Git book 日本語版 オンライン
+
+### docker + rails + vscode 
+
+- https://qiita.com/haruhikonyan/items/b5b04c168d3f9de0e210
+  VSCode と devcontainer で作る Rails 開発環境
+
+```shell
+$ git clone https://github.com/haruhikonyan/rails-devcontainer -b rails6.1.0-and-mysql rails6.1.0-and-mysql
+$ cd rails6.1.0-and-mysql
+$ code .
+
+vscode に termilal で ch /app してから
+rails s -b 0.0.0.0
+そのあと chrome で http:..localhost:3000 にアクセスする。
+```
