@@ -1,0 +1,11 @@
+  coder:
+    image: codercom/code-server
+    ports:
+      - '8080:8080'
+    volumes: 
+      - $HOME/github/coder:/home/coder/project  # 作業ディレクトリの永続化 事前にディレクトリは作っておく
+      - $HOME/github/study_git:/home/coder/study_git # code-serverからみえるように
+      - $HOME/github/study_git/code-server:/home/coder/.config/code-server # code-serverについている設定をみえるように
+
+    environment:
+      PASSWORD: "password"  # パスワード設定
