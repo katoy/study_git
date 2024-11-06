@@ -105,8 +105,4 @@ rails s -b 0.0.0.0
 
 - <https://www.miracleave.co.jp/contents/1487/rspec-shoulda-matchers/>
   RSpecをShoulda Matchersを使ってめちゃ簡単に書く
-
-=======
-2024-11-07  Add
-
-
+  
