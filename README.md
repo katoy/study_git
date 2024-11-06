@@ -3,7 +3,7 @@
 ## 概要
 
 - hotfix
-- hotfix 0002
+- hotfix 0-002
 - git merge --ammend
 
 ## 付録
